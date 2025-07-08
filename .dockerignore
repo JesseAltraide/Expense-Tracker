@@ -1,0 +1,28 @@
+# Ignore files and directories
+
+# Ignore the virtual environment directory
+.venv
+
+# Ignore the migrations directory
+migrations
+
+# Ignore the requirements.txt file (already copied in Dockerfile)
+requirements.txt
+
+# Ignore the README.md file
+README.md
+
+# Ignore the run.py file (not necessary for building the image)
+run.py
+
+# Ignore the __pycache__ directory
+__pycache__
+
+# Ignore the .git directory
+.git
+
+# Ignore the .gitignore file
+.gitignore
+
+# Ignore the .dockerignore file
+.dockerignore

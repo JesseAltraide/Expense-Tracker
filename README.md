@@ -13,11 +13,9 @@ This is an expense tracker app.
 -Git
 
 # How to deploy 
-1. Ensure you have python installed on your terminal 
-2. Create a virtual environment -- python -m venv .venv
-3. Install flask using -- pip install flask
-4. Install sql-alchemy and Migrate -- pip install flask-sqlalchemy flask-migrate
-5. Run -- flask db init, flask db migrate and flask db upgrade one after the other
-6. Run -- flask run
+1. Use docker build -t <name> .
+2. Ensure you have created a docker image 
+3. If the docker image has been created then run it using "docker run -d -p 5000:5000 <name of image you created>"
+4. Go to localhost:5000 on any browser of your choice to confirm it's working
 
 # NOTE: If any of the terminal commands don't work consider relaunching your terminal.
